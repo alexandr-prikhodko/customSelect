@@ -1,0 +1,25 @@
+//main init
+.cs_item_main{
+    float: left;
+    position: relative;
+    .select_current{
+        display: block;
+        white-space: nowrap;
+    }
+    .select_dropdown{
+        visibility: hidden;
+        position: absolute;
+        min-width: 100%;
+    }
+    .option{
+        display: block;
+        white-space: nowrap;
+    }
+
+    //show dropdown menu
+    &.opened {
+        .select_dropdown{
+            visibility: visible;
+        }
+    }
+}

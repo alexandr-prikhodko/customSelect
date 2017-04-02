@@ -1,7 +1,7 @@
 /**
  *
  * === select base html layout ===
- * <div class="custom_select">
+ * <div class="cs_item_main">
  *     <span class="select_current">Default option</span>
  *     <div class="select_dropdown">
  *         <span data-value="1" class="option">Option 1</span>
@@ -50,7 +50,6 @@
  *  });
  *
  * */
-
 (function ($) {
 
     var methods = {
